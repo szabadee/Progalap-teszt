@@ -1,0 +1,46 @@
+663  mkdir teszt
+  664  ls
+  665  cd teszt
+  666  ls
+  667  touch progalap-teszt-1.js
+  668  code progalap-teszt-1.js
+  669  touch progalap-teszt-2.js
+  670  code progalap-teszt-2.js
+  671* cd ..
+  672* cd flow
+  673* ls
+  674* cd teszt
+  675* ls
+  676* node progalap-teszt-2
+  677  touch progalap-teszt-3.js
+  678  code progalap-teszt-3.js
+  679* node progalap-teszt-3
+  680  touch progalap-teszt-4.js
+  681  code progalap-teszt-4.js
+  682* node progalap-teszt-4
+  683  touch progalap-teszt-5.js
+  684  code progalap-teszt-5.js
+  685* node progalap-teszt-5
+  686  code progalap-teszt-6.js
+  687* node progalap-teszt-6
+  688  touch progalap-teszt-7.js
+  689  code progalap-teszt-7.js
+  690  touch progalap-teszt-9.js
+  691  code progalap-teszt-9.js
+  692  touch .gitignore
+  693  nano .gitignore
+  694  echo 'node_modules' > .gitignore
+  695  echo '*.env' >> .gitignore
+  696  nano .gitignore
+  697  git clone https://github.com/szabadee/progalap_teszt.git
+  698  git init
+  699  git clone https://github.com/szabadee/progalap_teszt.git
+  700  ls
+  701  git checkout -b dev
+  702  ls
+  703* node progalap-teszt-9
+  704* node progalap-teszt-7
+  705  git add .
+  706  git commit -m "első feltöltés"
+  707  git push
+
